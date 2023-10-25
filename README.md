@@ -35,5 +35,3 @@ Integration and unit tests are available to ensure the reliability and functiona
 If you're interested in contributing to or releasing new versions of this API, follow the release process outlined in the [Release Guide](#). It covers packaging new releases, updating version numbers, and notifying the community about changes.
 
 ---
-
-For more information and access to the API, visit [API Website](#).
