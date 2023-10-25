@@ -20,6 +20,8 @@ Comprehensive documentation for this API is available to help you get started an
 - [Tutorials](#) - Explore tutorials to understand how to use the API effectively.
 - [API Reference](#) - Detailed information about the API endpoints and functions.
 - [Data Types](#) - Understand the data types used in the API.
+- Input data type : POST.
+- Output data type : JSON.
 - [Authentication Guide](#) - Learn how to authenticate and authorize clients using OAuth2 and JWT tokens.
 
 ## Changelog
