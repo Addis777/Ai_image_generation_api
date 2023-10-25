@@ -25,13 +25,3 @@ Comprehensive documentation for this API is available to help you get started an
 ## Changelog
 
 Stay up to date with the latest changes and improvements to the API. Check out the [Changelog](#) to see the full history of the AI Image Generator and Editor Python API.
-
-## Tests
-
-Integration and unit tests are available to ensure the reliability and functionality of the API. You can run these tests individually or collectively. To get started, follow the instructions in the [Testing Guide](#).
-
-## Release Process
-
-If you're interested in contributing to or releasing new versions of this API, follow the release process outlined in the [Release Guide](#). It covers packaging new releases, updating version numbers, and notifying the community about changes.
-
----
