@@ -185,7 +185,8 @@ def doc_handler():
 
 if __name__ == '__main__':
     from wsgiref.simple_server import make_server
-
-    httpd = make_server('localhost', 90, Adiz_api)
-    print('Listening on port 90...')
+    host = 'localhost'
+    port = 8888
+    httpd = make_server('host, port, Adiz_api)
+    print('Listening on port %s...'%port)
     httpd.serve_forever()
