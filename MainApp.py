@@ -126,7 +126,7 @@ def signout_handler():
     try:
         login_man.logout(form_data['token'])
         return {'message': 'Signed out successfully'}
-    else:
+    except:
         return {'error': 'unable to sign out'}
     
 def generate_image_handler():
