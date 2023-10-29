@@ -95,11 +95,69 @@ To get started with the AI Image Generator and Editor Python API, follow these s
 
     The API will start running on `localhost` at port `90`. You can test the API endpoints using tools like Postman or by sending HTTP requests to `http://localhost:90`.
 
+### API Reference
 
-- [Tutorials](#): Understand the effective use of the API through various tutorials.
-- [API Reference](#): Detailed information about the API endpoints and functions.
-- [Data Types](#): Information about the data types used in the API.
-- [Authentication Guide](#): Guidelines for client authentication and authorization using OAuth2 and JWT tokens.
+This AI Image Generator and Editor API provides the following endpoints:
+
+#### `POST /v1/signin`
+
+- **Description:** Accepts both code-based and signin-based requests. Generates authentication URLs for Google, Microsoft, or Apple sign-ins.
+- **Request parameters:**
+  - `sign_type`: Type of sign-in (code or signin).
+  - `sign_to`: Sign-in provider (Google, Microsoft, or Apple).
+  - Additional parameters based on the chosen provider.
+- **Response:** Returns a URL for the corresponding sign-in provider.
+
+#### `POST /v1/signout`
+
+- **Description:** Logs out the user by revoking the access token.
+- **Request parameters:**
+  - `token`: Active user token for logout.
+- **Response:** Success message or error message if logout fails.
+
+#### `POST /v1/generate-image`
+
+- **Description:** Generates AI images based on text descriptions.
+- **Request parameters:**
+  - `prompt`: Text description for image generation.
+  - `size`: Image size for the generated images.
+  - `numb`: Number of images to generate.
+- **Response:** Returns generated AI images.
+
+#### `POST /v1/edit-image`
+
+- **Description:** Edits an image using an AI model.
+- **Request parameters:**
+  - `prompt`: Text description for image generation.
+  - `image`: Original image for editing.
+  - `mask_image`: Mask image for editing.
+  - `size`: Image size for the edited images.
+  - `numb`: Number of images to edit.
+- **Response:** Returns the edited image.
+
+#### `POST /v1/referral-link`
+
+- **Description:** Fetches the referral code for the authenticated user.
+- **Request parameters:**
+  - `token`: Valid JWT token for the user.
+- **Response:** User's referral code.
+
+#### `POST /v1/credit`
+
+- **Description:** Retrieves information about the user's available and earned credits.
+- **Request parameters:**
+  - `token`: Valid JWT token for the user.
+- **Response:** Credit-related data.
+
+#### `POST /v1/doc`
+
+- **Description:** Fetches the API documentation.
+- **Request parameters:**
+  - `token`: Valid JWT token for the user.
+- **Response:** API documentation.
+
+Each endpoint requires specific parameters and provides responses in JSON format. Refer to the detailed API documentation for more information on utilizing these endpoints effectively.
+
 
 ## Changelog
 
