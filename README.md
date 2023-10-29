@@ -49,10 +49,15 @@ The API provides several endpoints to perform specific actions:
 
 ## Requirements
 
-To use this API, ensure you have:
+To run the AI Image Generator and Editor Python API, ensure you have the following requirements met:
 
-- **Web Server**: Any web server supporting Python, such as Flask or WSGI.
-- **Python Version**: 3.0 or higher.
+- **Python:** Python 3.6 or higher.
+- **OpenAI Account:** Obtain an API key from OpenAI for access to the DALL-E2 image generation model.
+- **Database:** Access to a MySQL database for user and token management.
+- **OAuth Providers:** Credentials for OAuth providers (Google, Microsoft, Apple) to support sign-in/sign-up functionality.
+- **Web Server:** Ability to host a Python application (e.g., Flask, WSGI) for serving the API endpoints.
+- **Dependencies:** Make sure to install all necessary Python dependencies outlined in the `requirements.txt` file.
+
 
 ## Documentation
 
