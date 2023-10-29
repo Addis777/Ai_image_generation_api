@@ -58,7 +58,39 @@ To use this API, ensure you have:
 
 Explore comprehensive documentation for this API to get started:
 
-- [Installation Guide](#): Learn how to set up and install the API.
+## Installation Guide
+
+To get started with the AI Image Generator and Editor Python API, follow these steps:
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/your_username/Ai_image_generation_api.git
+    ```
+
+2. **Install the required dependencies:**
+
+    ```bash
+    cd Ai_image_generation_api
+    pip install -r requirements.txt
+    ```
+
+3. **Configure your environment:**
+
+    - Create a virtual environment if necessary.
+    - Update the necessary configurations (API keys, database details, OAuth credentials) in the respective files: `adiz_key_manager.py`, `adiz_db.py`, `adiz_signin_manager.py`, and others as required.
+
+4. **Run the API:**
+
+    ```bash
+    python MainApp.py
+    ```
+
+5. **Verify the setup:**
+
+    The API will start running on `localhost` at port `90`. You can test the API endpoints using tools like Postman or by sending HTTP requests to `http://localhost:90`.
+
+
 - [Tutorials](#): Understand the effective use of the API through various tutorials.
 - [API Reference](#): Detailed information about the API endpoints and functions.
 - [Data Types](#): Information about the data types used in the API.
