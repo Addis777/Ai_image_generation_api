@@ -1,0 +1,4 @@
+requests==2.26.0
+PyJWT==2.3.0
+mysql-connector-python==8.0.26
+openai==0.10.2
