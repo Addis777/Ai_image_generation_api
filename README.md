@@ -18,6 +18,15 @@ Users can edit images using AI algorithms provided by OpenAI, enabling creativit
 
 The API supports OAuth2 authentication and JWT tokens for client authorization and secure access.
 
+## Extendability and Unused Functionalities
+
+The API has been designed to accommodate future expansions and enhancements, manifesting in certain classes and methods across various modules that are presently unused in the primary operations. Despite their current inactivity, these unutilized components have been purposefully developed to facilitate potential augmentations and the inclusion of new features.
+
+This deliberate inclusion of currently inactive features within the codebase reflects a forward-thinking approach toward scalability and extendibility. These dormant functionalities signify a framework ready for the integration of additional endpoints, service improvements, or expanded functionalities in subsequent stages of the project.
+
+Their existence represents a foundational aspect of the API's design to adapt to changing requirements, enabling seamless incorporation of new capabilities and broader service offerings as the project evolves.
+
+
 ## Directory Structure
 
 The project directory structure is organized as follows:
