@@ -70,7 +70,7 @@ To get started with the AI Image Generator and Editor Python API, follow these s
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your_username/Ai_image_generation_api.git
+    git clone https://github.com/Addis777/Ai_image_generation_api.git
     ```
 
 2. **Install the required dependencies:**
