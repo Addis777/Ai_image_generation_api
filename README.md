@@ -158,12 +158,15 @@ This AI Image Generator and Editor API provides the following endpoints:
 
 Each endpoint requires specific parameters and provides responses in JSON format. Refer to the detailed API documentation for more information on utilizing these endpoints effectively.
 
+### Change Log
 
-## Changelog
+#### Version 1.0.0
 
-Stay updated on the latest changes and improvements to the API:
+- **Added**: Initial set of API endpoints for user authentication and image manipulation.
+- **Updated**: Improved handling for error responses.
+- **Fixed**: Bug in token expiration logic.
+- **Changed**: Altered the user database structure.
 
-- [Changelog](#): Check the full history of the AI Image Generator and Editor Python API.
 
 
 ## License
