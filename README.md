@@ -31,6 +31,9 @@ The project directory structure is organized as follows:
 - **adiz_image_generator.py**: Implements the image generation and editing functionalities using the OpenAI API.
 - **adiz_key_manager.py**: Manages and validates API keys.
 - **adiz_signin_manager.py**: Includes classes for JWT token generation, token management, and user login/logout procedures.
+- **adiz_Oauth2Provider.py**: Manages OAuth2 authentication procedures, including acquiring user authentication URLs, exchanging codes for tokens, and obtaining user information.
+- **adiz_api_log.py**: Handles logging functionalities, allowing the API to log informative and error messages.
+
 
 ## API Endpoints
 
