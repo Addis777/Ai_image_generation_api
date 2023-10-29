@@ -158,6 +158,14 @@ This AI Image Generator and Editor API provides the following endpoints:
 
 Each endpoint requires specific parameters and provides responses in JSON format. Refer to the detailed API documentation for more information on utilizing these endpoints effectively.
 
+## Data Types
+
+The API utilizes the following data types for input and output:
+
+- **Input Data Type**: HTTP POST.
+- **Output Data Type**: JSON.
+
+
 ### Change Log
 
 #### Version 1.0.0
@@ -166,8 +174,6 @@ Each endpoint requires specific parameters and provides responses in JSON format
 - **Updated**: Improved handling for error responses.
 - **Fixed**: Bug in token expiration logic.
 - **Changed**: Altered the user database structure.
-
-
 
 ## License
 
